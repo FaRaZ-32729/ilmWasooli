@@ -41,7 +41,7 @@ const Hero = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1 }}
                     >
-                        <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-white via-[#dfffe6] to-[#a7ffd1] bg-clip-text text-transparent leading-snug drop-shadow-md">
+                        <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-white via-[#dfffe6] to-[#a7ffd1] bg-clip-text text-transparent leading-snug drop-shadow-md">
                             The Fastest Growing Free Forever School Management Software
                         </h1>
                     </motion.div>
@@ -74,14 +74,14 @@ const Hero = () => {
                     </motion.div>
                 </div>
 
-                {/* Paragraph + Buttons in one row */}
+                {/* para/but */}
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.3 }}
                     className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6"
                 >
-                    {/* Paragraph */}
+                    {/* Para */}
                     <p className="text-lg md:text-xl text-white/90 font-medium leading-relaxed max-w-3xl">
                         <span className="font-semibold text-white">ILMWasooli</span> is the
                         ultimate school management solution designed for both mobile and web
@@ -93,7 +93,7 @@ const Hero = () => {
                         </span>
                     </p>
 
-                    {/* Buttons */}
+                    {/* Btn */}
                     <div className="flex gap-4">
                         <motion.button
                             whileHover={{ scale: 1.08 }}

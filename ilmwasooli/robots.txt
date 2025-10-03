@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /notfound
+Disallow: /404
+Disallow: /error
+Allow: /
+
+Sitemap: https://www.wasooli.com/sitemap.xml

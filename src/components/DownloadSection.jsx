@@ -39,7 +39,7 @@ const DownloadSection = () => {
                         <motion.img
                             key={index}
                             src={img}
-                            alt="Download Preview"
+                            alt="no image"
                             className="absolute w-60 md:w-72 rounded-xl shadow-xl"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: [0, 1, 1, 0] }}
